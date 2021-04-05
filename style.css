@@ -1,0 +1,158 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	font-family: 'Reem Kufi', sans-serif;
+	background-color: #f4f4f4
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+header {
+	display: inline;
+}
+
+.navbar-dark {
+	background: linear-gradient(to right, #6AADAA, #EECAC8);
+	color: #fff;
+	padding-top: 30px;
+	min-height: 70px;
+	position: sticky;
+	border-bottom: 3px solid #6AADAA 
+}
+
+#showcase {
+	min-height: 400px;
+	background: url(img/background.jpg)0px -40px;
+	background-size: 880px;
+	text-align: center;
+	color: #0D0D0D;
+}
+
+#showcase h1 {
+	margin-top: 120px;
+	font-size: 55px;
+	margin-bottom: 10px;
+	text-shadow: 2px 2px 5px #EECAC8;
+}
+
+#showcase p {
+	font-size: 20px;
+}
+
+#newsletter {
+	padding: 15px;
+	color: #fff;
+	background: linear-gradient(to right, #6AADAA, #EECAC8);
+}
+
+#newsletter h1 {
+	float: left;
+}
+
+#newsletter form {
+	float: right;
+	margin-top: 15px;
+}
+
+#newsletter input[type="email"] {
+	padding: 4px;
+	height: 25px;
+	width: 250px;
+}
+
+.buttonsubs {
+	height: 33px;
+	background-color: #6AADAA;
+	border: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #fff;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+}
+
+#boxes {
+	margin-top: 20px;
+}
+
+#boxes .box {
+	float: right;
+	text-align: center;
+	width: 30%;
+	padding: 10px;
+}
+
+#boxes .box img {
+	width: 250px;
+}
+
+footer {
+	padding: 20px;
+	margin-top: 20px;
+	color: #fff;
+	text-align: center;
+	background: linear-gradient(to right, #6AADAA, #EECAC8);
+
+}
+
+/*Media Query*/
+@media(max-width: 768px) {
+
+	header #branding,
+	header nav,
+	header nav li,
+	#newsletter h1,
+	#newsletter form,
+	#boxes .box {
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+
+	header {
+		padding: 20px;
+	}
+
+	#showcase h1 {
+		margin-top: 40px;
+	}
+
+	#newsletter button {
+		display: block;
+		width: 100%;
+	}
+
+	#newsletter input[type="email"] {
+		width: 100%;
+		margin-bottom: 5px;
+	}
+
+}
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	padding: 15px;
+}
+
+.img-fluid {
+	width: auto;
+	height: auto;
+	max-height: 300px;
+	object-fit: cover;
+	object-position: left;
+}
+
+
+.card-deck {
+	margin: auto;
+	text-align: center;
+}
+.btn {
+	margin-top: 30px;
+}
